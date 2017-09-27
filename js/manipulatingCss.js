@@ -30,7 +30,7 @@ function changeColor()
 
 function changeBorder()
 {
-	document.getElementById('clown').style.border = "20px solid black";
+	document.getElementById('clown').style.border = "10px solid black";
 }
 
 function changeBorderBack()
