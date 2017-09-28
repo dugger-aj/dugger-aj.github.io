@@ -15,8 +15,9 @@ button:hover {
 }
 
 body{
-	background: url("../images/background.jpg") top left no-repeat;
-
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    background-size: cover;
 }
 
 #clown{
