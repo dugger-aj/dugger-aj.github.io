@@ -1,6 +1,7 @@
 html{
 	background-image: url("../images/background.jpg");
 	background-size: full;
+	background-repeat: none;
 
 }
 
