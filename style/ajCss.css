@@ -17,7 +17,7 @@ button:hover {
 body{
 	background-image: url("../images/background.jpg");
 	background-size: full;
-	background-repeat: none;
+	background-repeat: no-repeat;
 
 }
 
