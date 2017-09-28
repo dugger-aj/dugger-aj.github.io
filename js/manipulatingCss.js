@@ -4,13 +4,13 @@
 
 function doubleHeight()
 {
-	document.getElementById('clown').style.height = "400px";
+	document.getElementById('clown').style.width = "75%";
 }
 
 function returnToNormal()
 {
-	document.getElementById('clown').style.height = "200px";
-	document.getElementById('clown').style.borderRadius = "4px";
+	document.getElementById('clown').style.width = "50%";
+	document.getElementById('clown').style.borderRadius = "20px";
 }
 
 function changeRadius()
@@ -32,7 +32,7 @@ function changeColor()
 function changeBorder()
 {
 	document.getElementById('clown').style.border = "10px solid black";
-	document.getElementById('clown').style.borderRadius = "8px";
+	
 
 	
 }
@@ -40,6 +40,6 @@ function changeBorder()
 function changeBorderBack()
 {
 	document.getElementById('clown').style.border = "none";
-	document.getElementById('clown').style.borderRadius = "4px";
+	document.getElementById('clown').style.borderRadius = "20px";
 
 }
