@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+
+#Main{
+	text-align: center;
+}
+
+button:hover {
+	background-color: gray;
+	border-radius: 6px;
+}
+
+body{
+	background-image: url("../images/background.jpg");
+
+}
+
+#clown{
+	border-radius: 4px;
+}

@@ -1,6 +1,7 @@
 //document.getElementById('clown').style.display = "block";
 
 
+
 function doubleHeight()
 {
 	document.getElementById('clown').style.height = "400px";
@@ -9,7 +10,7 @@ function doubleHeight()
 function returnToNormal()
 {
 	document.getElementById('clown').style.height = "200px";
-	document.getElementById('clown').style.borderRadius = "0px";
+	document.getElementById('clown').style.borderRadius = "4px";
 }
 
 function changeRadius()
@@ -24,16 +25,21 @@ function changeColor()
 	
 	for(var i=0, len=buttons.length; i<len; i++)
     {
-        buttons[i].style["color"] = color;
+        buttons[i].style.color = color;
     }
 }
 
 function changeBorder()
 {
 	document.getElementById('clown').style.border = "10px solid black";
+	document.getElementById('clown').style.borderRadius = "8px";
+
+	
 }
 
 function changeBorderBack()
 {
 	document.getElementById('clown').style.border = "none";
+	document.getElementById('clown').style.borderRadius = "4px";
+
 }
