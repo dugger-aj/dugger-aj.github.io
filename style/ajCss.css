@@ -14,7 +14,7 @@ button:hover {
 	color: white;
 }
 
-body{
+html{
 	background: url("../images/background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
     background-size: cover;
