@@ -19,13 +19,15 @@ button:hover{
 	border-radius: 6px;
 	color: white;
 	font-size: 110%;
+	width: 50%;
 }
 
 #home{
-	height: 30px;
+	width: 3%;
 	display: inline-block;
 }
 
 button{
 	font-size: 105%;
+	width: 50%;
 }
