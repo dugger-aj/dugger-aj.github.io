@@ -20,17 +20,17 @@ button:hover{
 	border-radius: 6px;
 	color: white;
 	font-size: 110%;
-	width: 50%;
+	width: 75%;
 }
 
 #home{
-	width: 3%;
+	width: 8%;
 	display: inline-block;
+	position: absolute;
 }
 
 button{
 	font-size: 105%;
-	width: 50%;
-	height:10%;
+	width: 75%;
 	padding: 2px;
 }

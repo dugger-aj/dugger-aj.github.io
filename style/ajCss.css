@@ -1,5 +1,8 @@
 h1{
 	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 10px;
 }
 
 #Main{
@@ -26,12 +29,14 @@ body{
 
 #home{
 	display: inline-block;
-	width: 3%;
+	width: 8%;
+	position: absolute;
 }
 
 button{
 	width:30%;
 	height: 10%;
+	font-size: 120%;
 }
 
 #home:hover{
