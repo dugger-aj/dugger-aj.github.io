@@ -1,0 +1,88 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Support Tickets Test</title>
+  <meta name="description" content="My Website">
+  <meta name="author" content="Aj Dugger">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+ 
+</head>
+
+<body>
+	<div id="ticketMain">
+		<h2 id="pageTitle">Live Support</h2>
+	</div>
+	<form id="ticketForm">
+		<h3>Contact Information</h3>
+		<div class="ticketSections" id="contactInfo">
+			<table>
+				<tr>
+					<td>Primary Contact</td>
+					<td><input type="text"></td>
+					<td>Contacted By</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Assigned Group</td>
+					<td><input type="text"></td>
+					<td>Assignee</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Expert</td>
+					<td><input type="text"></td>
+					<td>Expert Assignee</td>
+					<td><input type="text"></td>
+				</tr>
+			
+			</table>
+		</div>
+		<h3>Ticket Details</h3>
+		<div class="ticketSections" id="ticketDetails">
+			<table>
+				<tr>
+					<td>PC Name</td>
+					<td><input type="text"></td>
+					<td>Device Type</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Category</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Title</td>
+					<td colspan="3"><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Description</td>
+					<td colspan="3"><textarea rows="8" style="width:99%" form="ticketForm"></textarea></td>
+				</tr>
+			
+			</table>
+			
+		</div>
+		<h3>Resolution Details</h3>
+		<div class="ticketSections" id="resoltionDetails">
+			<table>
+				<tr>
+					<td>Solution</td>
+					<td colspan="3"><textarea rows="8" style="width:99%" form="ticketForm"></textarea></td>
+				</tr>
+				<tr>
+					<td>Resolution Code</td>
+					<td colspan="3"><input type="text"></td>
+				</tr>
+			
+			</table>
+		</div>
+		</br>
+		<input style="width:25%" type="submit" value="Save">
+		<input style="width:25%" type="submit" value="Save and New">
+	</form>
+</body>
+</html>
