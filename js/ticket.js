@@ -53,23 +53,14 @@ var category = [
 	"New Owl Request"
 ];
 
-var primaryContact = document.getElementById("contact");
-var contactedByField = document.getElementById("contactedBy");
-var deviceField = document.getElementById("device");
-var assignGroupField = document.getElementById("assignGroup");
-var expertGroupField = document.getElementById("expertGroup");
-var expertAssigneeField = document.getElementById("expertAssignee");
-var assigneeField = document.getElementById("assignee");
-var categoryField = document.getElementById("category");
-
-fillTheForm(primaryContact,people);
-fillTheForm(contactedByField,contactedBy);
-fillTheForm(deviceField,devices);
-fillTheForm(assignGroupField,groups);
-fillTheForm(expertGroupField,groups);
-fillTheForm(expertAssigneeField,people);
-fillTheForm(assigneeField,people);
-fillTheForm(categoryField,category);
+fillTheForm(document.getElementById("contact"),people);
+fillTheForm(document.getElementById("contactedBy"),contactedBy);
+fillTheForm(document.getElementById("device"),devices);
+fillTheForm(document.getElementById("assignGroup"),groups);
+fillTheForm(document.getElementById("expertGroup"),groups);
+fillTheForm(document.getElementById("expertAssignee"),people);
+fillTheForm(document.getElementById("assignee"),people);
+fillTheForm(document.getElementById("category"),category);
 
 
 function fillTheForm(field, theArray){
