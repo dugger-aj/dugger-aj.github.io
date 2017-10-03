@@ -15,6 +15,10 @@ h1{
 	text-align: center;
 }
 
+h1,h2,h3,p{
+	color:WHITE;
+}
+
 button:hover{
 	background-color: gray;
 	color: white;
@@ -51,9 +55,10 @@ button{
 }
 
 .ticketSections{
-	border: black solid;
+	border: white solid;
 	padding: 20px;
 	min-width: 715px;
+	border-radius: 4px;
 }
 
 form{
@@ -61,19 +66,30 @@ form{
 }
 
 input{
-	width:99%;
+	width:100%;
+	border-radius: 4px;
 }
 
-td{
-	padding: 0px 4px 0px 4 px;
+select{
+	width: 100%;
 }
 
 textarea{
-	max-height: 30%;
-	width:99%;
+	width:100%;
 	resize: vertical;
+	border-radius: 4px;
 }
 
 table{
 	width: 100%;
+	table-layout: fixed;
+}
+
+td{
+	padding: 0 12px;
+	color: white;
+}
+
+.submitButtons{
+	min-width: 32px;
 }

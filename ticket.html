@@ -12,10 +12,10 @@
  
 </head>
 
-<body>
-<a href="index.html"><img id="home" src="images/home.png"/></a>
+<body id="ticketBody">
+<a href="index.html"><img id="home" alt="" src="images/home.png"/></a>
 	<div id="ticketMain">
-		<h2 id="pageTitle">Live Support</h2>
+		<h2 id="pageTitle">Test Ticket Scenario</h2>
 	</div>
 	<form id="ticketForm">
 		<h3>Contact Information</h3>
@@ -23,21 +23,21 @@
 			<table>
 				<tr>
 					<td>Primary Contact</td>
-					<td><input type="text"></td>
+					<td><select id="contact" name="contact"></select></td>
 					<td>Contacted By</td>
-					<td><input type="text"></td>
+					<td><select id="contactedBy" name="contactedBy"></select></td>
 				</tr>
 				<tr>
 					<td>Assigned Group</td>
-					<td><input type="text"></td>
+					<td><select id="assignGroup" name="assignGroup"></select></td>
 					<td>Assignee</td>
-					<td><input type="text"></td>
+					<td><select id="assignee" name="assignee"></td>
 				</tr>
 				<tr>
-					<td>Expert</td>
-					<td><input type="text"></td>
+					<td>Expert Group</td>
+					<td><select id="expertGroup" name="expertGroup"></td>
 					<td>Expert Assignee</td>
-					<td><input type="text"></td>
+					<td><select id="expertAssignee" name="expertAssignee"></td>
 				</tr>
 			
 			</table>
@@ -46,14 +46,16 @@
 		<div class="ticketSections" id="ticketDetails">
 			<table>
 				<tr>
-					<td>PC Name</td>
+					<td>Device Name</td>
 					<td><input type="text"></td>
 					<td>Device Type</td>
-					<td><input type="text"></td>
+					<td><select id="device" name="device"></td>
 				</tr>
 				<tr>
 					<td>Category</td>
-					<td><input type="text"></td>
+					<td><select id="category" name="category"></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>Title</td>
@@ -61,7 +63,7 @@
 				</tr>
 				<tr>
 					<td>Description</td>
-					<td colspan="3"><textarea rows="8" style="width:99%" form="ticketForm"></textarea></td>
+					<td colspan="3"><textarea rows="8" form="ticketForm"></textarea></td>
 				</tr>
 			
 			</table>
@@ -72,18 +74,19 @@
 			<table>
 				<tr>
 					<td>Solution</td>
-					<td colspan="3"><textarea rows="8" style="width:99%" form="ticketForm"></textarea></td>
+					<td colspan="3"><textarea rows="8" form="ticketForm"></textarea></td>
 				</tr>
 				<tr>
 					<td>Resolution Code</td>
-					<td colspan="3"><input type="text"></td>
+					<td colspan="3"><select id="code" name="code"></td>
 				</tr>
 			
 			</table>
 		</div>
-		</br>
-		<input style="width:25%" type="submit" value="Save">
-		<input style="width:25%" type="submit" value="Save and New">
+		<br/>
+		<input class="submitButtons" style="width:25%" type="submit" value="Save">
+		<input class="submitButtons" style="width:25%" type="submit" value="Save and New">
 	</form>
+<script src="js/ticket.js"></script>
 </body>
 </html>
