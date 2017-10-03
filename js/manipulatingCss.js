@@ -1,5 +1,3 @@
-//document.getElementById('clown').style.display = "block";
-
 
 
 function doubleHeight()
@@ -23,7 +21,7 @@ function changeColor()
 	var color = prompt("What color? (can be name, hex, or rgb)");
 	var buttons = document.getElementsByClassName('myButtons');
 	
-	for(var i=0, len=buttons.length; i<len; i++)
+	for(var i=0; i < buttons.length; i++)
     {
         buttons[i].style.color = color;
     }
@@ -32,8 +30,6 @@ function changeColor()
 function changeBorder()
 {
 	document.getElementById('clown').style.border = "10px solid black";
-	
-
 	
 }
 

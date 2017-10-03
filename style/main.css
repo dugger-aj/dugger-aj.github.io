@@ -21,7 +21,7 @@ button:hover{
 }
 
 #home{
-	width: 4%;
+	width: 3%;
 	display: inline-block;
 	position: absolute;
 }
@@ -38,4 +38,42 @@ button{
 	width: 32%;
 	display: inline-block;
 	min-width:250px;
+}
+
+#pageTitle{
+	text-align: center;
+	font-size: 150%;
+	
+}
+
+#ticketMain{
+
+}
+
+.ticketSections{
+	border: black solid;
+	padding: 20px;
+	min-width: 715px;
+}
+
+form{
+	padding: 0px 100px 0px 100px;
+}
+
+input{
+	width:99%;
+}
+
+td{
+	padding: 0px 4px 0px 4 px;
+}
+
+textarea{
+	max-height: 30%;
+	width:99%;
+	resize: vertical;
+}
+
+table{
+	width: 100%;
 }

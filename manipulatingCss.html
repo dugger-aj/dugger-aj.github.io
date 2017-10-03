@@ -11,15 +11,15 @@
   
 </head>
 
-<a href="index.html"><img id="home" src="images/home.png"/></a>
+
 
 <body>
-	
+	<a href="index.html"><img id="home" src="images/home.png"/></a>
 	<h1>Manipulating CSS Class Properties Using JavaScript</h1>
 	<div id="Main">
 		<a href="http://www.augusta.com" target="_blank"><img id="clown" src="images/clown.jpg" onmouseout="changeBorderBack()" onmouseover="changeBorder()" alt="clown" ></a>
 		<div id="buttons">
-			<p><button class="myButtons" type="button" onclick="doubleHeight()">Click here to double image size</button></p>
+			<p><button id="thisButton" class="myButtons" type="button" onclick="doubleHeight()">Click here to double image size</button></p>
 			<p><button class="myButtons" type="button" onclick="returnToNormal()">Click here to go back to normal size</button></p>
 			<p><button class="myButtons" type="button" onclick="changeRadius()">Click here to change border radius</button></p>
 			<p><button class="myButtons" type="button" onclick="changeColor()">Click here to change button color</button></p>
