@@ -53,6 +53,14 @@ var category = [
 	"New Owl Request"
 ];
 
+var resolutionCode = [
+	"Select One",
+	"Resolved Successfully",
+	"Withdrawn",
+	"Could not reproduce",
+	"Solved by Workaround"	
+];
+
 fillTheForm(document.getElementById("contact"),people);
 fillTheForm(document.getElementById("contactedBy"),contactedBy);
 fillTheForm(document.getElementById("device"),devices);
@@ -61,7 +69,7 @@ fillTheForm(document.getElementById("expertGroup"),groups);
 fillTheForm(document.getElementById("expertAssignee"),people);
 fillTheForm(document.getElementById("assignee"),people);
 fillTheForm(document.getElementById("category"),category);
-
+fillTheForm(document.getElementById("code"),resolutionCode);
 
 function fillTheForm(field, theArray){
 	
