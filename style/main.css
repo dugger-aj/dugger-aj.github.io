@@ -72,6 +72,7 @@ input{
 
 select{
 	width: 100%;
+	border-radius: 4px;
 }
 
 textarea{
@@ -92,4 +93,8 @@ td{
 
 .submitButtons{
 	min-width: 32px;
+}
+
+#subtitle{
+	text-align: center;
 }
