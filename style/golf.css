@@ -20,7 +20,7 @@ nav{
     text-align: center;
     display: block;
     padding: 0;
-    background-color: indianred;
+    background-color: #8dc193;
 }
 
 nav button{
@@ -53,9 +53,11 @@ figure{
     text-align: center;
     margin: auto;
 }
-img{
+figure img{
     height:auto;
     width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 4px;
 }
 
 section{
@@ -91,6 +93,14 @@ div#footerWrapper{
     clear:both
 }
 
+#home{
+	width: 5%;
+	display: inline-block;
+	position: absolute;
+	min-width: 10px;
+	padding:4px;
+}
+
 @media only screen and (min-width: 480px){
     nav button{
         width: 32%;
@@ -110,4 +120,10 @@ div#footerWrapper{
     }  
 }
 
+@media only screen and (min-width: 1150px){
+    nav{
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}
 
