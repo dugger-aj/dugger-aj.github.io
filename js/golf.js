@@ -15,4 +15,7 @@ xhr.onload = function () {
     } // end if
 } // end function
 
-
+function enterData(x){
+	
+	document.getElementById("courseName").innerHTML = golfInfo[x].name;
+}
