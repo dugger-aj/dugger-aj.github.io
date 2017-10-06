@@ -24,7 +24,9 @@ function enterData(x){
 	document.getElementById("weekday").innerHTML = golfInfo[x].cost.weekday;
 	document.getElementById("weekend").innerHTML = golfInfo[x].cost.weekend;
 	
+	details = "";
 	for(i=0; i < golfInfo[x].details.length; i++){
-		document.getElementById("details").innerHTML += "<p>" + golfInfo[x].details[i] + "</p>";
+		details += "<p>" + golfInfo[x].details[i] + "</p>";
 	}
+	document.getElementById("details").innerHTML = details;
 }
