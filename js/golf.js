@@ -18,4 +18,6 @@ xhr.onload = function () {
 function enterData(x){
 	
 	document.getElementById("courseName").innerHTML = golfInfo[x].name;
+	document.getElementById("description").innerHTML = golfInfo[x].description;
+	document.getElementById("photo").src = golfInfo[x].photo;
 }
