@@ -1,0 +1,22 @@
+[   {
+    "name":"TPC Sawgrass",
+    "description":"The Tournament Players Club at Sawgrass (TPC at Sawgrass) is a golf course in the southeastern United States, located in Ponte Vedra Beach, Florida, southeast of Jacksonville. Opened 37 years ago in the autumn of 1980, it was the first of several Tournament Players Clubs to be built. It is home to the PGA Tour headquarters and hosts The Players Championship, the PGA Tour's signature event, now held in May.",
+    "cost":{"weekend":"$549", "weekday":"$220"},
+    "details":["PGA Tour plays here","Great Weather","17th Iconic Hole","2 Courses"],
+    "photo":"images/tpcsawgrass.jpg"
+    },
+    {
+    "name":"TPC Scottsdale",
+    "description":"Opened 31 years ago in 1986, the resort is part of the Tournament Players Club network of golf courses operated by the PGA Tour. The Stadium Course has been home to the tour's annual Phoenix Open since 1987.",
+    "cost":{"weekend":"$89", "weekday":"$69"},
+    "details":["New Club House","Tour Event Played","2 Courses"],
+    "photo":"images/tpcscottsdale.jpg"
+    },
+    {
+    "name":"Pebble Beach",
+    "description":"Widely regarded as one of the most beautiful courses in the world,[3] it hugs the rugged coastline and has wide open views of Carmel Bay, opening to the Pacific Ocean on the south side of the Monterey Peninsula. In 2001, it became the first public course (i.e. open to the general public for play) to be selected as the No. 1 Golf Course in America by Golf Digest. ",
+    "cost":{"weekend":"$500", "weekday":"$500"},
+    "details":["US Open Course","Great Views","Public","Lunch and caddy included"],
+    "photo":"images/pebblebeach.jpg"
+    }
+]

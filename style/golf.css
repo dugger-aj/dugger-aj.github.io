@@ -1,0 +1,117 @@
+#headerDiv{
+    margin:0;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+
+#headerDiv h1{
+    font-family: cursive;
+    font-size: 90%;
+}
+
+#headerDiv h2{
+    font-size: 70%;
+}
+
+nav{
+    text-align: center;
+    display: block;
+    padding: 0;
+    background-color: indianred;
+}
+
+nav button{
+    width:100%;
+    font-family:"Lato",sans-serif;
+    font-weight:300;
+    margin:0;
+    padding: 10px;
+    background:none;
+    color:#333;
+    border-left: black .5px solid;
+    border-right: black .5px solid;
+    background-color: none;
+    
+}
+
+main h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+main p#description{
+    text-align:center;
+    padding: 0px 50px;
+}
+figure{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+img{
+    height:auto;
+    width: 100%;
+}
+
+section{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+section h2{
+    font-family: cursive;
+}
+section a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right:50px;
+    border-radius: 20px;
+    font-weight:700;
+}
+
+div#footerWrapper footer{
+    padding:1em;
+    text-align:center;
+    color:#fff;
+    font-size:.9rem
+}
+
+div#footerWrapper{
+    width:100%;
+    background-color:#333;
+    clear:both
+}
+
+@media only screen and (min-width: 480px){
+    nav button{
+        width: 32%;
+    }   
+    section{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    #headerDiv h1{
+        font-size: 140%;
+    }  
+    #headerDiv h2{
+        font-size: 90%;
+    }  
+}
+
+@media only screen and (min-width: 800px){
+    nav{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+}
