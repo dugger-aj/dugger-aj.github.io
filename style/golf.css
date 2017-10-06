@@ -113,5 +113,9 @@ div#footerWrapper{
         padding-left: 200px;
         padding-right: 200px;
     }
+	main p#description{
+		text-align:center;
+		padding: 0px 100px;
+	}
     
 }
