@@ -44,7 +44,9 @@ main h1{
 
 main p#description{
     text-align:center;
-    padding: 0px 50px;
+	max-width: 700px;
+	margin: auto;
+	padding-bottom: 4px;
 }
 figure{
     max-width: 700px;
@@ -108,14 +110,4 @@ div#footerWrapper{
     }  
 }
 
-@media only screen and (min-width: 800px){
-    nav{
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-	main p#description{
-		text-align:center;
-		padding: 0px 100px;
-	}
-    
-}
+
