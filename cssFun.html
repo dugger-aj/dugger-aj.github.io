@@ -12,14 +12,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 </head>
-<body>
+<body onload="doThis();">
 	<div id="header">
 		<h2 id="title">Let's have some fun with CSS and Events!</h2>
 		<h4>by Aj Dugger</h4>
 	</div>
 	<div id="navWrapper">
 		<nav id="nav" class="theNav">
-			<a href="javascript:void(0);" style="font-size:15px;" id="icon" onclick="showMenu()">&#9776;</a>
+			<a href="javascript:void(0);" style="font-size:15px;" id="icon"  onclick="showMenu()">&#9776;</a>
 			<a href="cssFun.html">Events/CSS Home</a>
 			<a href="transitions.html">CSS Transitions</a>
 			<a href="transforms.html">CSS Transforms</a>
@@ -35,13 +35,21 @@
 	</div>
 	<br>
 	<div id="pictureWrapper">
-		<p>Click the picture, and a secret message will appear!</p>
-		<img src="images/augusta.jpg" alt"augusta national" onclick="augusta()">
+		<p>Click the picture, and a secret message will appear! (border radius done by onload event)</p>
+		<img src="images/augusta.jpg" id="augustaPic"  onload="changeBorder()" alt="augusta national" onclick="augusta()">
 		<div id="coolNewStuff">
 		</div>
 		<div id="clearStorage">
 			<br>
+			<button id="removeChild">REMOVE CHILD ELEMENTS</button>
 			<button id="clearStorageButton">CLEAR STORAGE</button>
+		</div>
+		<br>
+		<p>Here is a picture that its url was stored in local storage, along with the remaining parts of the oject, and retrieved and parsed.</p>
+		<div id="valleyViewWrapper">
+		</div>
+		<div>
+			<p id="valleyViewInfo" ></p>
 		</div>
 	</div>
 <script src="js/css.js"></script>
