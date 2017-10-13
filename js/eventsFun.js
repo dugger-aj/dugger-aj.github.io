@@ -56,7 +56,7 @@ var valleyView = {
 	price: 44,
 	img: "images/golf.jpg",
 	printThis : function() {
-       return "<p>" + this.name + "</p><p>Number of Holes: " + this.holes + "</p><p>Location: " + this.city + ", " + this.state + "</p><p>Price: " + this.price + "</p>";
+       return "<p>" + this.name + "</p><p>Number of Holes: " + this.holes + "</p><p>Location: " + this.city + ", " + this.state + "</p><p>Price: $" + this.price + "</p>";
     }
 };
 
