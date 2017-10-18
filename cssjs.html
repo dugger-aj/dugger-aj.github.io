@@ -8,10 +8,11 @@
 	<meta name="description" content="CSS">
 	<meta name="author" content="Aj Dugger">
 	<link rel="stylesheet" type="text/css" href="style/css.css">
+	<link rel="stylesheet" type="text/css" href="style/cssjs.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 </head>
-<body>
+<body onload="makeTextBigger('pageTitle');">
 	<div id="header">
 		<h2 id="title">CSS Transitions with JS</h2>
 		<h4>by Aj Dugger</h4>
@@ -28,10 +29,39 @@
 	</div>
 	<div id="main">
 		<div id="titleDesc">
-			<h3 id="pageTitle">This is a title</h3>
-			<p id="description">This is going to be a description</p>
+			<h3 id="pageTitle" >Transitions and Animations using JavaScript</h3>
+			<p id="description">Here are a few examples of some transitions and animations using JavaScript</p>
+		</div>
+		<h2>Transitions</h2>
+		<div id="transitions1">
+			<div id="box1">
+				<p id="myPara">Ahhhh!!</p>
+				<img id="clownAh" src="images/clownAh.jpg" alt="scary clown">
+			</div>
+			<button class="go" onclick="makeBoxAppear();">Click for something magical</button>
+		</div>
+		<div id="transitions2">
+			<div id="box2">
+				<p id="myPara2">This is a sqaure turning into a circle.</p>
+				<img id="square" src="images/square.jpg" alt="something">
+			</div>
+			<button class="go" onclick="makeCircle();">Click for something magical</button>
+		</div>
+		<br>
+		<br>
+		<h2>Animations!!</h2>
+		<div id="animations1">
+			<div id="circle">
+				<br>
+				<p>A Cool Circle!!</p>
+			</div>
+		</div>
+		<div id="animations2">
+			
 		</div>
 	</div>
+	
 <script src="js/css.js"></script>
+<script src="js/cssjs.js"></script>
 </body>
 </html>
