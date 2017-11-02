@@ -20,9 +20,7 @@ function enterData(x){
 	document.getElementById("courseName").innerHTML = golfInfo[x].name;
 	document.getElementById("description").innerHTML = golfInfo[x].description;
     var myVideo = document.getElementById("video");
-    var source = document.createElement("source");
-    source.setAttribute("src",golfInfo[x].video);
-    myVideo.appendChild(source);
+    myVideo.setAttribute("src",golfInfo[x].video);
     myVideo.play();
     
 	document.getElementById("weekday").innerHTML = golfInfo[x].cost.weekday;
