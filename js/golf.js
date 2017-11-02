@@ -21,7 +21,6 @@ function enterData(x){
 	document.getElementById("description").innerHTML = golfInfo[x].description;
     var myVideo = document.getElementById("video");
     myVideo.setAttribute("src",golfInfo[x].video);
-    myVideo.play();
     
 	document.getElementById("weekday").innerHTML = golfInfo[x].cost.weekday;
 	document.getElementById("weekend").innerHTML = golfInfo[x].cost.weekend;
