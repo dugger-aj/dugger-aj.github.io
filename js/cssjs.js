@@ -26,7 +26,7 @@ function makeBoxAppear (){
 function makeCircle (){
 	
 	var pic = document.getElementById("square");
-	pic.style.transition = "opacity 3s, border-radius 3s";
+	pic.style.transition = "opacity 3s, border-radius 3s linear 3s";
 	pic.style.opacity = 1;
 	document.getElementById("square").style.borderRadius = "50%";
 	

@@ -19,8 +19,12 @@ function enterData(x){
 	
 	document.getElementById("courseName").innerHTML = golfInfo[x].name;
 	document.getElementById("description").innerHTML = golfInfo[x].description;
-	document.getElementById("photo").src = golfInfo[x].photo;
-	
+    var myVideo = document.getElementById("video");
+    var source = document.createElement("source");
+    source.setAttribute("src",golfInfo[x].video);
+    myVideo.appendChild(source);
+    myVideo.play();
+    
 	document.getElementById("weekday").innerHTML = golfInfo[x].cost.weekday;
 	document.getElementById("weekend").innerHTML = golfInfo[x].cost.weekend;
 	
